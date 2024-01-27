@@ -18,37 +18,37 @@ public class ProjectOne {
 		Couple Arjo = new Couple(false, "no one");
 
 		// Here you can see who Lisa is in relationship is
-		System.out.println("met wie is Lisa in een Relatie?");
+		System.out.println("who is Lisa in a relationship with?");
 		System.out.println(Lisa.relationeWith);
-		System.out.println("zijn Lisa en Derik in Relatie? ");
+		System.out.println("are Lisa and Derik in a relationship?");
 
 		// here see if it's really true
 		if (Lisa.inRelation == Derik.inRelation) {
-			System.out.println("ja");
+			System.out.println("Yes");
 		} else {
-			System.out.println("nee");
+			System.out.println("no");
 		}
 
 		// Here you can see whether the difference in life is not too high or too low
-		System.out.println("dat is tog te groot verschil met leeftijd?");
+		System.out.println("Isn't that too big a difference with age?");
 
 		if (lisa.age > 22) {
-			System.out.println("inderdaad vind dat ook raar");
+			System.out.println("I actually find that strange too");
 		} else if (derik.age < 18) {
-			System.out.println("hij is nog jonger dan 18 dus kan niet");
+			System.out.println("he is still under 18 so that is can not");
 		} else {
-			System.out.println("het valt best mee het zit in de 4 jaar range");
+			System.out.println("It's not too bad, it's in the 4 year range");
 		}
 
 		// Here you can see who is single
 		if (!Naomie.inRelation && !Arjo.inRelation) {
-			System.out.println("wie zijn er single: " + naomie.name + ", " + arjo.name);
+			System.out.println("who is single: " + naomie.name + " and " + arjo.name);
 		} else if (!Naomie.inRelation) {
-			System.out.println("wie zijn er single: " + naomie.name);
+			System.out.println("who is single: " + naomie.name);
 		} else if (!Arjo.inRelation) {
-			System.out.println("wie zijn er single: " + arjo.name);
+			System.out.println("who is single: " + arjo.name);
 		} else {
-			System.out.println("niemand is single");
+			System.out.println("no one single");
 		}
 	}
 }
