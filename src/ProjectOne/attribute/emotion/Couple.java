@@ -1,11 +1,11 @@
-package ProjectOne;
+package ProjectOne.attribute.emotion;
 
 public class Couple {
-	boolean inRelation;
+	public boolean inRelation;
 
-	String relationeWith;
+	private String relationeWith;
 
-	Couple(boolean inRelation, String relationeWith) {
+	public Couple(boolean inRelation, String relationeWith) {
 
 		this.inRelation = inRelation;
 		this.relationeWith = relationeWith;
@@ -14,6 +14,7 @@ public class Couple {
 	public String getRelationeWith() {
 		return relationeWith;
 	}
+
 
 	public void setRelation(boolean inRelation) {
 		this.inRelation = inRelation;

@@ -1,8 +1,8 @@
-package ProjectOne;
+package ProjectOne.attribute.groups;
 
 public class People {
-	String name;
-	int age;
+	private String name;
+	private int age;
 
 	public People(String name, int age, Boolean female, Boolean male) {
 
@@ -10,12 +10,9 @@ public class People {
 		this.age = age;
 	}
 
-	public People() {
-	}
-
 
 	public String getName() {
-		return name;
+		return this.name;
 	}
 
 	public int getAge() {
