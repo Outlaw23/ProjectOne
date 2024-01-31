@@ -6,10 +6,21 @@ import ProjectOne.attribute.emotion.Couple;
 import ProjectOne.attribute.emotion.Standards;
 import ProjectOne.attribute.groups.People;
 
+import java.lang.reflect.Method;
+import java.util.Scanner;
+
 public class ProjectOne {
 
+	int messageInt;
+	String message = "";
+	Method method;
+
 	// rooms of the student house
-	Rooms kitchen = new Rooms("kitchen", 40);
+	Rooms
+			kitchen = new
+
+			Rooms("kitchen", 40);
+
 	Rooms livingRoom = new Rooms("living room", 130);
 	Rooms bedroomForLisaAndDerik = new Rooms("bedroom", 90);
 	Rooms bedroomForNaomie = new Rooms("bedroom", 70);
@@ -38,12 +49,13 @@ public class ProjectOne {
 	Standards arjoStandards = new Standards(0);
 	Standards lindaStandards = new Standards(0);
 
+
 	public static void main(String[] args) {
 
 		ProjectOne projectOne = new ProjectOne();
 
 		//her you can put test the methods(put projectOne. and then the method)
-		projectOne.lisaRelationship();
+		projectOne.excursionWithTheStudentHouseMembers();
 
 	}
 
@@ -90,7 +102,7 @@ public class ProjectOne {
 			System.out.println("who is single: " + arjo.getName());
 		} else if (!Naomie.inRelation) {
 			System.out.println("who is single: " + naomie.getName());
-		} else if (!Lisa.inRelation) {
+		} else if (!Linda.inRelation) {
 			System.out.println("who is single: " + linda.getName());
 		} else {
 			System.out.println("no one single");
@@ -137,6 +149,34 @@ public class ProjectOne {
 			System.out.println("because they are together");
 			System.out.println("but for how long");
 		}
+	}
+
+
+	public void excursionWithTheStudentHouseMembers() {
+
+		Scanner scanner = new Scanner(System.in);
+
+		while (!message.equals("exit")) {
+
+			System.out.println("pick number 0,1 or 2");
+
+			message = scanner.nextLine();
+
+			if ("0".equals(message)) {
+
+				System.out.println("you win: 10 dollars");
+			} else if ("1".equals(message)) {
+
+				System.out.println("you win: speed boat");
+			} else if ("2".equals(message)) {
+
+				System.out.println("you win: toilet roll");
+			}
+			break;
+
+		}
+
+
 	}
 }
 
