@@ -1,0 +1,69 @@
+abstract = is dat niet direct kan worden gebruikt
+private = dat de variabele alleen in de dezelde class toegang hebt (is ook te omzijlen
+class = templet or bleuprint voor een object
+polymorphism runtime = dynamic
+polymorphism compile time = static
+interface = implementeren zoveel als je wilt
+
+OOP_MIAN CLASS
+zorgt er voor dat het kan runnen
+(line 3)
+print done om te kijken dat het run werkt
+(line 5)
+haalt de SHOP CLASS en zet op shop voor het gebruiken
+(line 7)
+je vult ook de object in met variable en haalt de object constructor op uit FOODFRUIT (SUB) CLASS,
+FOODMEAT CLASS en je zet voor het gebruiken op foodFruit,foodMeat
+(line 10 tot met line 11)
+met add item zorg er voor dat het oject word geadd aan de arrylist in SHOP CLASS
+(line 14 tot met line 15)
+het laaste print de objecten en de sout (sout = print) staat in SHOP CLASS
+(line 17)
+
+SHOP CLASS
+maak de arrylist aan foodmeat en item en ook nog nieuw arrylist om de object op te slaan
+(line 6 tot met line 13),
+ik zorg dat de object word geadd aan de arrylist
+(line 15 tot met line 22)
+hier zorg ik er voor dat in additem de variable kan zeten
+(line 25 tot met line 27)
+zorg ik het voor dat het word uit geprint
+(line 29 tot met line 35)
+
+ITEM CLASS
+je set de variabeles voor het object
+(line 7 tot met line 9 )
+hier heb de constructor die zorget er voor dat all variabele in het object moet staan bij OOP_MAIN CLASS
+dus in het kort de zorgt voor de constructie
+(line 13 tot met line 17)
+hier haal alle variabele op
+(line 21 tot met line 29)
+de displayInfo de implementer in FOODFRUIT (SUB) CLASS met de print string
+(line 31)
+
+FOODFRUIT (SUB) CLASS
+je set de variabeles voor het object
+(line 4)
+hier heb de constructor die zorget er voor dat all variabele in het object moet staan bij OOP_MAIN CLASS
+super is dat de variabele kan gebruiken uit de ITEM CLASS (FOOD (SUB) CLASS extends ITEM CLASS)
+(line 6 tot met line 9)
+hier haal alle variabele op
+(line 11 tot met line 13)
+hier heb de polymorphism compile time en dat het uit print via OOP_MAIN CLASS
+(line 16 tot met line 20)
+hier heb de polymorphism runtime en dat het uit print via OOP_MAIN CLASS
+(line 22 tot met line 25)
+
+FOODMEAT CLASS
+je set de variabeles voor het object
+(line 4 tot met line 7)
+hier heb de constructor die zorget er voor dat all variabele in het object moet staan bij OOP_MAIN CLASS
+(line 11 tot met line 16)
+hier haal alle variabele op
+(line 20 tot met line 37)
+hier heb de polymorphism runtime en dat het uit print via OOP_MAIN CLASS
+(line 39 tot met line 42)
+
+ITEMSTUFF INTERFACE
+zorg er voor dat bij FOODMEAT CLASS die moet toevoegen omdat je implements ITEMSTUFF INTERFACE
+(line 4 tot met line 7)

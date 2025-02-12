@@ -15,7 +15,7 @@ public class StorageObject {
 	Rooms bedroomForNaomie = new Rooms("bedroom", 70);
 	Rooms bedroomForArjo = new Rooms("bedroom", 70);
 	Rooms bedroomForLinda = new Rooms("bedroom", 60);
-	
+
 	// the People
 	People lisa = new People("Lisa", 21, true, false);
 	People derik = new People("Derik", 19, false, true);
