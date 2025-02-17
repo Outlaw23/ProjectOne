@@ -1,4 +1,4 @@
-package oop;
+package oop.videoYT;
 
 public interface ItemStuff {
 	String getName();

@@ -1,4 +1,4 @@
-package oop;
+package oop.videoYT;
 
 public class FoodMeat implements ItemStuff {
 	private String name;

@@ -1,4 +1,4 @@
-package oop;
+package oop.videoYT;
 
 public class FoodFruit extends Item {
 	private String type;

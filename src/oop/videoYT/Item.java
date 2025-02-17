@@ -1,4 +1,4 @@
-package oop;
+package oop.videoYT;
 
 //class = templet or bleuprint
 public abstract class Item {

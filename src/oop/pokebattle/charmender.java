@@ -1,4 +1,4 @@
-package charmenderP;
+package oop.pokebattle;
 
 import java.util.Scanner;
 
@@ -34,6 +34,13 @@ public class charmender {
 
 		Scanner nickName = new Scanner(System.in);
 		System.out.print("Nickname: ");
+		nickname = nickName.nextLine();
+		return nickname;
+	}
+	public String Quit() {
+
+		Scanner nickName = new Scanner(System.in);
+		System.out.print("do you want to quit? (y/n): ");
 		nickname = nickName.nextLine();
 		return nickname;
 	}
